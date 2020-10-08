@@ -1,0 +1,16 @@
+
+h1 {
+    font-family: 'Piazzolla', serif;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    border: solid 3px white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
