@@ -7,13 +7,13 @@ export default function Menu() {
     return (
         <nav>
             <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
             </li>
             <li>
-                <a href="#">Blog</a>
+                <a href="/">Blog</a>
             </li>
             <li>
-                <a href="#">Mentoría</a>
+                <a href="/">Mentoría</a>
             </li>
         </nav>
     )
