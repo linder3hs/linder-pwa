@@ -12,15 +12,15 @@ export default function Menu() {
     return (
         <nav>
             <li>
-                <IconButton href={"/"} className="btn-home">
-                    <HomeIcon color="secondary" />&nbsp;Home
+                <IconButton href={"/"} className="btn-link btn-home">
+                    <HomeIcon className="btn-link" color="secondary" />&nbsp;Home
                 </IconButton>
             </li>
             <li>
-                <a href="/">Blog</a>
+                <a className="btn-link" href="/">Blog</a>
             </li>
             <li>
-                <a href="/">Mentoría</a>
+                <a className="btn-link" href="/">Mentoría</a>
             </li>
         </nav>
     )

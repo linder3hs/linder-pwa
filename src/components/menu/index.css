@@ -12,7 +12,7 @@ li {
     margin: 10px;
 }
 
-a {
+.btn-link {
     color: white !important;
     text-decoration: none;
     font-weight: bold;
