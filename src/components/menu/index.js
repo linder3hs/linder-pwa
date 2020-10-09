@@ -13,7 +13,7 @@ export default function Menu() {
                 <a href="#">Blog</a>
             </li>
             <li>
-                <a href="#">Mentoria</a>
+                <a href="#">Mentoría</a>
             </li>
         </nav>
     )
