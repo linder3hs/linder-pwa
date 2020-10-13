@@ -8,10 +8,10 @@ export default function AboutMe() {
             <div className="about-me-text" style={{ textAlign: 'center' }}>
                 <div>
                     <p className="about-me-text-style text-white">
-                        Hola soy Linder Hassinger, Software Developer me especializo en parte de Back - End, pero me
-                        gusta mucho React JS, así que a vece me pongo a jugar con un poco de Front, te mucho tiempo
-                        programado y tienen consultas puden escribirme a
-                        <a href="https://twitter.com/linder3hs" target="_blank" className="text-link">@linder3hs</a>
+                        Hola soy Linder Hassinger, Software Developer me especializo en la parte de Back - End, pero me
+                        gusta mucho React JS, así que a veces me pongo a jugar con un poco de Front, tengo mucho tiempo
+                        programado y bueno si tienen consultas puden escribirme a
+                        <a href="https://twitter.com/linder3hs" target="_blank" className="text-link">@linder3hs</a>.
                     </p>
                 </div>
             </div>
