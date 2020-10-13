@@ -1,9 +1,11 @@
 
 nav {
-    background: #01020B;
-    color: white;
+    background: #98ffae;
+    color: #222222;
     font-family: 'Nunito', sans-serif;
-    padding: 30px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
     text-align: left;
 }
 
@@ -13,7 +15,7 @@ li {
 }
 
 .btn-link {
-    color: white !important;
+    color: #222222 !important;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -23,12 +25,11 @@ a span {
     font-size: 18px;
 }
 
-.MuiSvgIcon-colorSecondary {
-    color: white !important;
-}
-
 @media only screen and (max-width: 600px) {
     nav {
+        color: #222222;
+        font-family: 'Nunito', sans-serif;
+        padding: 10px;
         text-align: center;
     }
 }
