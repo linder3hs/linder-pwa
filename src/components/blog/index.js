@@ -50,7 +50,7 @@ export default function Blog() {
                     </p>
                 </Grid>
             </Grid>
-            <Grid container spacing={3} style={{ marginTop: 60, backgroundColor: '#ffe86c', borderRadius: 8 }}>
+            <Grid container spacing={3} style={{ marginTop: 60, borderRadius: 8 }}>
                 <Grid item sm={6} xs={12} style={{textAlign: 'left'}}>
                     <img
                         className="img-blog-second"
