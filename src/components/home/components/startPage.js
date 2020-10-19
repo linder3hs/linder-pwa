@@ -10,6 +10,7 @@ export default function StartPage() {
     return (
         <div>
             <img
+                className="img-profile"
                 src="https://avatars0.githubusercontent.com/u/20673011?s=460&u=313cb18dc7dcb95126b81d45315529ebcb257053&v=4"
                 alt=""/>
             <h1>Linder Hassinger</h1>

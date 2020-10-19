@@ -17,7 +17,7 @@ export default function Menu() {
                 </IconButton>
             </li>
             <li>
-                <a className="btn-link" href="/">Blog</a>
+                <a className="btn-link" href="/blog">Blog</a>
             </li>
             <li>
                 <a className="btn-link" href="/">Mentoría</a>

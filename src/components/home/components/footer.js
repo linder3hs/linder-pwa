@@ -3,11 +3,9 @@ import {
     Container,
     Grid
 } from '@material-ui/core'
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import GitHubIcon from "@material-ui/icons/GitHub"
+import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import TwitterIcon from "@material-ui/icons/Twitter"
 
 export default function Footer() {
 
