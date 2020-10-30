@@ -8,14 +8,16 @@ import AboutMe from "./components/aboutMe"
 export default function Home() {
 
     return (
-      <div>
-        <div className="all-page">
-          <StartPage/>
-        </div>
-        <div className="all-page bg-dark">
-          <AboutMe/>
-        </div>
-      </div>
+        <header className="App-header">
+            <div>
+                <div className="all-page">
+                    <StartPage/>
+                </div>
+                <div className="all-page bg-dark">
+                    <AboutMe/>
+                </div>
+            </div>
+        </header>
     )
 
 }

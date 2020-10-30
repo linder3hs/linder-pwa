@@ -2,7 +2,8 @@ import React from "react";
 import Home from "./components/home"
 import Blog from "./components/blog"
 import Layout from './components/layout'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import NotFound from "./components/Views/NotFound"
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom"
 
 import "./App.css";
 
@@ -13,14 +14,10 @@ function App() {
         <div>
           <Layout>
             <Switch>
-              <Route exact path="/">
-                <header className="App-header">
-                  <Home />
-                </header>
-              </Route>
-              <Route exact path="/blog">
-                <Blog />
-              </Route>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/blog" component={Blog} />
+              <Route path="/404" component={NotFound} />
+              <Redirect from="*" to="/404" />
             </Switch>
           </Layout>
         </div>
