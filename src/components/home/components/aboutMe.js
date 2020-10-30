@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutMe() {
 
     return (
-        <div>
+        <div id="content">
             <h2 className="text-white">Acerca de mi</h2>
             <div className="about-me-text" style={{ textAlign: 'center' }}>
                 <div>
