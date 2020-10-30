@@ -44,14 +44,10 @@ export default function StartPage() {
                     <InstagramIcon/>
                 </Link>
             </div>
-            <div className="container">
-                <div className="arrow-holder">
-                    <div id="arrow" className="circle bounce" data-target="#introText">
-                        <a href="#content">
-                            <KeyboardArrowDownIcon color="white" fontSize="large" />
-                        </a>
-                    </div>
-                </div>
+            <div style={{ marginTop: 10 }}>
+                <a href="#content">
+                    <KeyboardArrowDownIcon color="primary" fontSize="large" />
+                </a>
             </div>
         </div>
     )
