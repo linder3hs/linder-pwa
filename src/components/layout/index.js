@@ -5,13 +5,11 @@ import Footer from "../home/components/footer";
 const Layout = props => {
 
     return (
-        <React.Fragment>
+        <div className="bg__footer">
             <Menu />
             {props.children}
-            <div style={{ marginTop: 30 }}>
-                <Footer />
-            </div>
-        </React.Fragment>
+            <Footer />
+        </div>
     )
 }
 
