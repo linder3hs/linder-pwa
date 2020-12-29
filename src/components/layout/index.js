@@ -1,16 +1,15 @@
-import React from 'react'
-import Menu from '../menu'
+import React from "react";
+import Menu from "../menu";
 import Footer from "../home/components/footer";
 
-const Layout = props => {
+const Layout = (props) => {
+  return (
+    <div className="bg__footer">
+      <Menu />
+      {props.children}
+      {/* <Footer /> */}
+    </div>
+  );
+};
 
-    return (
-        <div className="bg__footer">
-            <Menu />
-            {props.children}
-            <Footer />
-        </div>
-    )
-}
-
-export default Layout
+export default Layout;

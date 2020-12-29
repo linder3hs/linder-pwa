@@ -1,28 +1,26 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import {
-    IconButton
-} from "@material-ui/core";
-import HomeIcon from '@material-ui/icons/Home'
-
-import './index.css'
+import "./index.css";
 
 export default function Menu() {
-
-    return (
-        <nav>
-            <li>
-                <IconButton href={"/"} className="btn-link btn-home">
-                    <HomeIcon className="btn-link" color="secondary" />&nbsp;Home
-                </IconButton>
-            </li>
-            <li>
-                <a className="btn-link" href="/blog">Blog</a>
-            </li>
-            <li>
-                <a className="btn-link" href="/">Mentoría</a>
-            </li>
-        </nav>
-    )
-
+  return (
+    <nav>
+      <li>
+        <Link to={"/"} className="btn-link">
+          Inicio
+        </Link>
+      </li>
+      <li>
+        <Link to={"/"} className="btn-link">
+          Proyectos
+        </Link>
+      </li>
+      <li>
+        <Link to={"/"} className="btn-link">
+          Youtube
+        </Link>
+      </li>
+    </nav>
+  );
 }

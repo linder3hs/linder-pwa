@@ -1,8 +1,4 @@
 
-.App {
-    text-align: center;
-}
-
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -14,15 +10,16 @@
     }
 }
 
+.top__30 {
+    margin-top: 30px !important;
+}
+
 .App-header {
-    background-color: #fff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #222;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .App-link {
@@ -40,7 +37,7 @@
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: #222;
 }
 
@@ -77,19 +74,21 @@ a:nth-child(5) {
     color: #E1306C;
 }
 
-.all-page-first {
+/* .all-page-first {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .all-page {
+    margin-top: 60px;
     height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: rgb(245, 248, 250);
 }
 
 .bg-dark {
@@ -103,7 +102,7 @@ a:nth-child(5) {
 }
 
 .text-small {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 15px;
     text-align: left;
     margin-left: 2px;
@@ -247,3 +246,19 @@ a:nth-child(5) {
     }
 }
 
+.title {
+    font-weight: 700;
+    font-size: 2.875rem;
+    line-height: 1.30435em;
+    color: #33475b;
+}
+
+.subtitle {
+    font-weight: 400;
+}
+
+.text__description {
+    font-weight: 300;
+    max-width: 430px;
+    line-height: 29px;
+}
