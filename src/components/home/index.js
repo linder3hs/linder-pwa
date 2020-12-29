@@ -12,9 +12,9 @@ export default function Home() {
         <div className="all-page">
           <StartPage />
         </div>
-        {/* <div className="all-page bg-dark">
-                    <AboutMe/>
-                </div> */}
+        <div className="bg__dark">
+          <AboutMe />
+        </div>
       </div>
     </header>
   );

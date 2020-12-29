@@ -37,7 +37,7 @@ export default function StartPage() {
             </a>
           </p>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid className="hidden" item xs={12} sm={6}>
           <img
             width="400"
             alt="bg__home"
