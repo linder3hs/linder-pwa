@@ -1,6 +1,6 @@
 import React from "react";
-import Menu from "../components/menu";
-import Footer from "../views/home/components/footer";
+import Menu from "components/menu";
+// import Footer from "views/home/components/footer";
 
 const Layout = (props) => {
   return (

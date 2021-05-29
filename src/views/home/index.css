@@ -5,12 +5,13 @@
 .btn__primary {
   padding: 15px;
   border-radius: 8px;
-  background-color: #ed6363;
+  background-color: transparent;
   padding-left: 15px;
   padding-right: 15px;
   border: none;
   font-size: 16px;
   color: #fff;
+   border: solid 1px #fff;
 }
 
 .btn__secondary {
@@ -26,8 +27,16 @@
 }
 
 .btn__primary:hover {
-  opacity: 0.8;
   cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(170, 49, 132, 1) 64%,
+    rgba(131, 58, 180, 1) 97%
+  );
+  transition: all 0.8s ease;
+  transform: scale(1.1);
+  border: none;
 }
 
 .btn__secondary:hover {
@@ -39,11 +48,12 @@
   display: flex;
   overflow: hidden;
   background-color: #23103a;
-  height: 60vh;
+  height: 80vh;
   margin-top: 30px;
   max-width: 100%;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .container__button {
@@ -54,30 +64,47 @@
   margin-left: 10px;
 }
 
+.text__project {
+  display: flex;
+  align-items: center;
+  color: rgba(252, 176, 69, 1) !important;
+}
+
+.hello {
+  color: rgba(252, 176, 69, 1);
+  margin-bottom: 0;
+  text-align: left !important;
+  font-weight: 400;
+}
+
 .title__home {
   color: #fff !important;
   font-size: 60px;
+  margin-top: 0;
 }
 
 .about {
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 
-.about_item {
-  width: 70%;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(252, 176, 69, 1) 0%,
-    rgba(170, 49, 132, 1) 64%,
-    rgba(131, 58, 180, 1) 97%
-  );
-  height: 70vh;
-  border-top-left-radius: 45px;
-  border-top-right-radius: 45px;
+.about div {
+  max-width: 50%;
+  flex: 50%;
+}
+
+.about div:nth-child(2) {
+  margin-left: 40px !important;
+  color: #fff;
+}
+
+.image_about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  width: 600px;
 }
 
 h1,
@@ -122,16 +149,6 @@ a:nth-child(4) {
 
 a:nth-child(5) {
   color: #e1306c;
-}
-
-.all-page {
-  margin-top: 60px;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  /* justify-content: center;
-    align-items: center; */
-  background-color: rgba(255, 122, 89, 0.1);
 }
 
 .bg__dark {
@@ -212,7 +229,8 @@ a:nth-child(5) {
   font-size: 2.875rem;
   line-height: 1.30435em;
   letter-spacing: 1px;
-  color: #33475b;
+  color: #fff;
+  margin-top: 0;
 }
 
 .subtitle {
@@ -228,7 +246,20 @@ a:nth-child(5) {
   color: #fff;
 }
 
+.text__description__about {
+  font-weight: 300;
+  max-width: 500px;
+  line-height: 29px;
+  text-align: left;
+  color: #fff;
+
+}
+
 @media only screen and (max-width: 600px) {
+  .container__home {
+    height: 100vh;
+  }
+
   .about-me-text {
     margin: 10px;
     line-height: 2;

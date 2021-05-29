@@ -30,7 +30,7 @@ export default function Menu() {
         </Link>
       </li>
       <li className={open ? "open" : "hide"}>
-        <Link to={"/"} className="btn-link btn-link-primary">
+        <Link to={"/"} className="btn-link">
           Contacto
         </Link>
       </li>
