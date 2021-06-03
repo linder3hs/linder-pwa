@@ -6,7 +6,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 
 import "./index.css";
 
-export default function Menu() {
+const Menu = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -36,4 +36,6 @@ export default function Menu() {
       </li>
     </nav>
   );
-}
+};
+
+export default Menu;
