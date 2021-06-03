@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
-import imageBg from "assets/photos/about.svg";
-import clipboard from "assets/icons/clipboard.svg";
-import stopWatch from "assets/icons/stopwatch.svg";
+import imageBg from "../../../assets/photos/about.svg";
+import clipboard from "../../../assets/icons/clipboard.svg";
+import stopWatch from "../../../assets/icons/stopwatch.svg";
 
 export default function AboutMe() {
   return (
