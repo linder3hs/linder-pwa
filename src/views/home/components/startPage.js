@@ -4,7 +4,7 @@ import React from "react";
 export default function StartPage() {
   return (
     <div className="container__home">
-      <p className="hello">👋 Hello, I'm</p>
+      <p className="hello">Hello, I'm</p>
       <h1 className="title__home">Linder Hassinger</h1>
       <h4 className="subtitle">Lead Software Developer</h4>
       <p className="text__description">
