@@ -4,11 +4,13 @@ import AboutMe from "./components/aboutMe";
 
 import "./index.css";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <StartPage />
       <AboutMe />
     </>
   );
-}
+};
+
+export default Home;

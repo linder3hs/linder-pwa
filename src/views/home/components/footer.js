@@ -5,7 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 
-export default function Footer() {
+const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
 
@@ -49,4 +49,6 @@ export default function Footer() {
       </Container>
     </div>
   );
-}
+};
+
+export default Footer;
