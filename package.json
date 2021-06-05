@@ -12,15 +12,13 @@
         "react-device-detect": "^1.17.0",
         "react-dom": "^16.14.0",
         "react-router": "^5.2.0",
-        "react-scripts": "^4.0.3",
-        "reactide-config": "^1.0.2"
+        "react-scripts": "^4.0.3"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "reactide-server": "webpack-dev-server --config reactide.config.js --mode development --hot"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -51,10 +49,6 @@
         "node-sass": "^4.12.0",
         "react-router-dom": "^5.2.0",
         "sass-loader": "^7.1.0",
-        "style-loader": "^0.23.1",
-        "url-loader": "^2.0.0",
-        "webpack": "^5.38.1",
-        "webpack-cli": "^3.3.2",
-        "webpack-dev-server": "^3.11.2"
+        "style-loader": "^0.23.1"
     }
 }

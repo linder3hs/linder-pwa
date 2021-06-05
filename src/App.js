@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./views/home";
 import Blog from "./views/blog";
 import Layout from "./layout";
-import NotFound from "./views/NotFound";
+import NotFound from "./views/notFound";
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +12,7 @@ import {
 
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Router>
@@ -27,6 +27,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;
