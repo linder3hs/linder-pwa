@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./views/home";
 import Blog from "./views/blog";
 import Layout from "./layout";
-import NotFound from "./views/notFound";
+import NotFound from "./views/NotFound";
 import {
   BrowserRouter as Router,
   Switch,
