@@ -1,0 +1,31 @@
+.container__skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo__tec {
+    border-radius: 16px;
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+.bg__yellow {
+    background-color: rgb(222, 255, 55);
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.bg__blue {
+    background-color: rgb(55, 112, 255);
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.bg__grandient {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(245, 245, 136) 64%, rgb(255, 207, 104) 97%);
+    height: calc(100% - 40px);
+}

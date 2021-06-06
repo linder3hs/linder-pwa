@@ -1,8 +1,5 @@
-import React from "react";
-import Home from "./views/home";
-import Blog from "./views/blog";
+import React, { Suspense, lazy } from "react";
 import Layout from "./layout";
-import NotFound from "./views/NotFound";
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,12 +14,29 @@ const App = () => {
     <div className="App">
       <Router>
         <Layout>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/blog" component={Blog} />
-            <Route path="/404" component={NotFound} />
-            <Redirect from="*" to="/404" />
-          </Switch>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Switch>
+              <Route
+                exact
+                path="/"
+                component={lazy(() => import("./views/home"))}
+              />
+              <Route
+                exact
+                path="/blog"
+                component={lazy(() => import("./views/blog"))}
+              />
+              <Route
+                path="/profile"
+                component={lazy(() => import("./views/profile"))}
+              />
+              <Route
+                path="/404"
+                component={lazy(() => import("./views/NotFound"))}
+              />
+              <Redirect from="*" to="/404" />
+            </Switch>
+          </Suspense>
         </Layout>
       </Router>
     </div>
